@@ -15,14 +15,16 @@ import logging
 import yt_dlp
 import re
 import requests
+from dotenv import load_dotenv
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 
 # API Keys
-PINECONE_API_KEY = "pcsk_2afFE5_MZjAHxYnBaz9fMCtPQmNNgJiAXnSjnsijVmUmcKJh57GDF9sqkMM6H9jNzavTHa"
-GROQ_API_KEY = "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"
-PINECONE_ENVIRONMENT = "us-east-1"
-PINECONE_INDEX_NAME = "youtube-rag"
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+PINECONE_ENVIRONMENT = os.getenv("PINECONE_ENVIRONMENT", "us-east-1")
+PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "youtube-rag")
 VECTOR_DIMENSION = 384
 
 class SimpleEmbeddings:
