@@ -261,7 +261,7 @@ GET /api/check-video/Z2CZ8mkECpU
 
 ## 🚀 **Deployment**
 
-### **Option 1: Render.com (Recommended)**
+### **Option 1: Render.com **
 ```yaml
 # render.yaml
 services:
@@ -357,7 +357,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 **Contact & Support**
 
 - **GitHub Issues**: [Report a bug](https://github.com/Aditya-Sharma-dev18/Advance-YT-Chatbot/issues)
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Email**: [sharma.adityaaa0001@gmail.com](mailto:sharma.adityaaa0001@gmail.com)
 - **YouTube**: [Watch Demo](https://youtube.com/watch?v=your-demo)
 
 ---
