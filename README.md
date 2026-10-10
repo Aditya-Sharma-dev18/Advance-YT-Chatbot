@@ -1,4 +1,4 @@
-# 🎬 YouTube Chatbot - AI-Powered Video Q&A Assistant
+# 🎬 YouTube Chatbot - AI-Powered Video Q&A Assistant   
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green.svg)](https://fastapi.tiangolo.com/)
